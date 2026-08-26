@@ -1,0 +1,25 @@
+{
+  "title": "SHANUN RANDEV | Data Scientist",
+  "description": "Data Scientist with 6 years of experience spanning analytics engineering, BI, and applied ML, building canonical datasets, dashboards, and production-grade ETL pipelines, alongside time series fore...",
+  "keywords": "Data Scientist, Portfolio, SHANUN RANDEV, Python, R, SQL, MATLAB, Scala, Shell Scripting, Scikit-learn, PyTorch",
+  "author": "SHANUN RANDEV",
+  "siteName": "SHANUN RANDEV",
+  "siteTitle": "SHANUN RANDEV | Data Scientist",
+  "meta": {
+    "title": "SHANUN RANDEV | Data Scientist",
+    "description": "Data Scientist with 6 years of experience spanning analytics engineering, BI, and applied ML, building canonical datasets, dashboards, and production-grade ETL pipelines, alongside time series fore...",
+    "author": "SHANUN RANDEV",
+    "keywords": "Data Scientist, Portfolio, SHANUN RANDEV, Python, R, SQL, MATLAB, Scala, Shell Scripting, Scikit-learn, PyTorch"
+  },
+  "branding": {
+    "name": "SHANUN RANDEV",
+    "tagline": "Data Scientist",
+    "logo": "/logo.png"
+  },
+  "settings": {
+    "year": 2026,
+    "enableAnimations": true,
+    "enableParticles": true,
+    "navbarScrollEffect": true
+  }
+}

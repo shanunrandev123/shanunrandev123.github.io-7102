@@ -1,0 +1,90 @@
+{
+  "sectionTitle": "Professional Experience",
+  "experiences": [
+    {
+      "title": "Senior Data Scientist",
+      "company": "Conagra Brands",
+      "period": "July 2025 – Present",
+      "location": "",
+      "description": "Led end-to-end machine learning life-cycle for $11B demand planning spanning problem framing, feature engineering, experimental design, model training, evaluation, and performance monitoring. Built robust predictive and optimization pipelines leveraging XGBoost, Prophet, and LSTM; implemented back-testing and cross-validation frameworks to drive performance evaluation across large datasets. Developed and operationalized 34 KPIs feeding Power BI dashboards used self-serve by cross-functional business teams, ensuring data governance, scalability, and proactive risk monitoring.",
+      "responsibilities": [
+        "Led end-to-end machine learning life-cycle for $11B demand planning spanning problem framing, feature engineering, experimental design, model training, evaluation, and performance monitoring",
+        "Built robust predictive and optimization pipelines leveraging XGBoost, Prophet, and LSTM; implemented back-testing and cross-validation frameworks to drive performance evaluation across large datasets",
+        "Developed and operationalized 34 KPIs feeding Power BI dashboards used self-serve by cross-functional business teams, ensuring data governance, scalability, and proactive risk monitoring"
+      ],
+      "technologies": [
+        "XGBoost",
+        "Prophet",
+        "LSTM",
+        "Power BI"
+      ],
+      "icon": "fas fa-briefcase",
+      "color": "#FF6B6B"
+    },
+    {
+      "title": "Data Science Intern",
+      "company": "The George Washington University",
+      "period": "August 2024 – July 2025",
+      "location": "",
+      "description": "Designed and deployed NLP pipelines for classification, clustering, and sentiment analysis across 500K+ job postings, leveraging knowledge graphs, parallel processing, and statistical validation.",
+      "responsibilities": [
+        "Designed and deployed NLP pipelines for classification, clustering, and sentiment analysis across 500K+ job postings, leveraging knowledge graphs, parallel processing, and statistical validation"
+      ],
+      "technologies": [],
+      "icon": "fas fa-briefcase",
+      "color": "#4ECDC4"
+    },
+    {
+      "title": "Data Scientist",
+      "company": "O9 Solutions, Inc.",
+      "period": "July 2021 – August 2023",
+      "location": "",
+      "description": "Built and deployed supervised learning models (ARIMA, Prophet, XGBoost, LSTM) for demand forecasting, reducing WMAPE by 17% and generating $2M+ in cost savings and revenue impact. Optimized complex SQL queries and streamlined data mining workflows, reducing execution time by 15% and cutting resource usage by 6%, improving Power BI dashboard responsiveness and pipeline efficiency.",
+      "responsibilities": [
+        "Built and deployed supervised learning models (ARIMA, Prophet, XGBoost, LSTM) for demand forecasting, reducing WMAPE by 17% and generating $2M+ in cost savings and revenue impact",
+        "Optimized complex SQL queries and streamlined data mining workflows, reducing execution time by 15% and cutting resource usage by 6%, improving Power BI dashboard responsiveness and pipeline efficiency"
+      ],
+      "technologies": [
+        "ARIMA",
+        "Prophet",
+        "XGBoost",
+        "LSTM",
+        "SQL",
+        "Power BI"
+      ],
+      "icon": "fas fa-briefcase",
+      "color": "#FFE66D"
+    },
+    {
+      "title": "Data Analyst",
+      "company": "CrossML Pvt. Ltd.",
+      "period": "January 2021 – June 2021",
+      "location": "",
+      "description": "Automated Spark-based ETL pipelines to build canonical datasets supporting product analytics use cases, improving data processing efficiency by 10%.",
+      "responsibilities": [
+        "Automated Spark-based ETL pipelines to build canonical datasets supporting product analytics use cases, improving data processing efficiency by 10%"
+      ],
+      "technologies": [
+        "Spark"
+      ],
+      "icon": "fas fa-briefcase",
+      "color": "#A8DADC"
+    },
+    {
+      "title": "Data Analyst Co-op",
+      "company": "IESL Pvt. Ltd.",
+      "period": "January 2020 – December 2020",
+      "location": "",
+      "description": "Designed and deployed a scalable ML and analytics platform on AWS SageMaker, exposing predictive models via Django REST APIs with sub-3-second response times.",
+      "responsibilities": [
+        "Designed and deployed a scalable ML and analytics platform on AWS SageMaker, exposing predictive models via Django REST APIs with sub-3-second response times"
+      ],
+      "technologies": [
+        "AWS SageMaker",
+        "Django REST APIs"
+      ],
+      "icon": "fas fa-briefcase",
+      "color": "#B19CD9"
+    }
+  ]
+}

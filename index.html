@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio.">
+    <meta name="keywords" content="Portfolio">
+    <meta name="author" content="">
+    <meta name="theme-color" content="#0a0a0b">
+    <title>Portfolio</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Google Fonts: Bricolage Grotesque (display) · Hanken Grotesk (body) · JetBrains Mono (technical) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Hanken+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="assets/css/styles.css?v=cert1">
+</head>
+<body>
+    <!-- Particle Background -->
+    <div id="particles-js"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="#home" class="nav-brand" id="nav-brand"></a>
+                <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu" id="nav-menu"></ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="container">
+            <div class="hero-grid">
+                <div class="hero-content">
+                    <p class="hero-greeting" id="hero-greeting"></p>
+                    <h1 class="hero-name" id="hero-name"></h1>
+                    <h2 class="hero-title" id="hero-title"></h2>
+                    <p class="hero-tagline" id="hero-tagline"></p>
+                    <p class="hero-summary" id="hero-summary"></p>
+
+                    <div class="hero-highlights" id="hero-highlights"></div>
+
+                    <div class="hero-cta" id="hero-cta"></div>
+
+                    <div class="hero-social" id="hero-social"></div>
+
+                    <div class="scroll-indicator" id="scroll-indicator">
+                        <span>Scroll to explore</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                </div>
+
+                <aside class="hero-portrait">
+                    <div class="hero-portrait-frame">
+                        <img src="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%27512%27 height=%27512%27/%3E" alt="" data-portrait loading="eager" />
+                        <span class="hero-portrait-status"><i></i> Available for work</span>
+                    </div>
+                    <div class="hero-portrait-meta">
+                        <span>// based in the US</span>
+                        <span>SWE · 3+ yrs</span>
+                    </div>
+                </aside>
+            </div>
+        </div>
+        <div class="hero-decoration">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="gradient-orb orb-3"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section section">
+        <div class="container">
+            <h2 class="section-title" id="about-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text" id="about-text"></div>
+                <div class="about-stats" id="about-stats"></div>
+            </div>
+            <div class="about-actions" id="about-actions"></div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience-section section">
+        <div class="container">
+            <h2 class="section-title" id="experience-title">Work Experience</h2>
+            <div class="timeline" id="experience-timeline"></div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section section">
+        <div class="container">
+            <h2 class="section-title" id="skills-title">Skills & Technologies</h2>
+            <div class="skills-grid" id="skills-grid"></div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section section">
+        <div class="container">
+            <div class="projects-head">
+                <h2 class="section-title" id="projects-title">Featured Work</h2>
+                <div class="projects-toolbar" id="projects-filters"></div>
+            </div>
+            <div class="projects-grid" id="projects-grid"></div>
+            <p class="projects-empty" id="projects-empty" hidden>No projects in this category.</p>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education-section section">
+        <div class="container">
+            <h2 class="section-title" id="education-title">Education</h2>
+            <div class="education-grid" id="education-grid"></div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section section">
+        <div class="container">
+            <h2 class="section-title" id="contact-title">Get In Touch</h2>
+            <p class="section-subtitle" id="contact-subtitle"></p>
+
+            <div class="contact-wrapper">
+                <div class="contact-info" id="contact-info"></div>
+                <div class="contact-form-wrapper">
+                    <form id="contact-form" class="contact-form"></form>
+                </div>
+            </div>
+
+            <div class="contact-social" id="contact-social"></div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p class="footer-tagline" id="footer-tagline"></p>
+                <div class="footer-social" id="footer-social"></div>
+                <p class="footer-copyright" id="footer-copyright"></p>
+                <div class="footer-links" id="footer-links"></div>
+            </div>
+            <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+                <i class="fas fa-chevron-up"></i>
+            </button>
+        </div>
+    </footer>
+
+    <!-- Particles.js Library -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+    <!-- Custom JavaScript -->
+    <script src="assets/js/main.js?v=cert1"></script>
+</body>
+</html>

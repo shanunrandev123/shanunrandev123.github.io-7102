@@ -1,0 +1,25 @@
+{
+  "copyright": {
+    "text": "© 2026 SHANUN RANDEV. All rights reserved.",
+    "year": "2026",
+    "name": "SHANUN RANDEV"
+  },
+  "tagline": "Crafted with passion and dedication",
+  "links": [
+    {
+      "text": "Email",
+      "href": "mailto:randevshanun411@gmail.com"
+    }
+  ],
+  "socialLinks": [
+    {
+      "platform": "Email",
+      "url": "mailto:randevshanun411@gmail.com",
+      "icon": "fas fa-envelope"
+    }
+  ],
+  "backToTop": {
+    "text": "Back to Top",
+    "icon": "fas fa-chevron-up"
+  }
+}

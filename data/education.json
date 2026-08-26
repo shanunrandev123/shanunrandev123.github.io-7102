@@ -1,0 +1,23 @@
+{
+  "sectionTitle": "Education & Certifications",
+  "certificationsTitle": "Certifications",
+  "education": [
+    {
+      "degree": "MS in Data Science",
+      "school": "The George Washington University",
+      "institution": "The George Washington University",
+      "period": "August 2023 - May 2025",
+      "details": "",
+      "description": ""
+    },
+    {
+      "degree": "BS in Electronics and Communication",
+      "school": "IP University, New Delhi",
+      "institution": "IP University, New Delhi",
+      "period": "July 2016 - July 2020",
+      "details": "",
+      "description": ""
+    }
+  ],
+  "certifications": []
+}

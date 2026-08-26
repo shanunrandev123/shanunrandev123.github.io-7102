@@ -1,0 +1,18 @@
+{
+  "profile": {
+    "name": "SHANUN RANDEV",
+    "title": "Data Scientist",
+    "bio": "Data Scientist with 6 years of experience spanning analytics engineering, BI, and applied ML, building canonical datasets, dashboards, and production-grade ETL pipelines, alongside time series forecasting and predictive modeling."
+  },
+  "contact": {
+    "email": "randevshanun411@gmail.com",
+    "phone": "(312) 371-0709",
+    "githubUsername": "shanunrandev123",
+    "linkedin": ""
+  },
+  "siteConfig": {
+    "domain": "",
+    "title": "SHANUN RANDEV - Portfolio",
+    "description": "Data Scientist with 6 years of experience spanning analytics engineering, BI, and applied ML, building canonical datasets, dashboards, and production-grade ETL pipelines, alongside time series forecasting and predictive modeling."
+  }
+}

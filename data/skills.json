@@ -1,0 +1,70 @@
+{
+  "sectionTitle": "Skills & Technologies",
+  "categories": [
+    {
+      "category": "Programming Languages",
+      "icon": "fas fa-code",
+      "color": "#FF6B6B",
+      "skills": [
+        "Python",
+        "R",
+        "SQL",
+        "MATLAB",
+        "Scala",
+        "Shell Scripting"
+      ]
+    },
+    {
+      "category": "Frameworks & Libraries",
+      "icon": "fas fa-toolbox",
+      "color": "#4ECDC4",
+      "skills": [
+        "Scikit-learn",
+        "PyTorch",
+        "TensorFlow",
+        "Django REST APIs"
+      ]
+    },
+    {
+      "category": "Tools & Platforms",
+      "icon": "fas fa-wrench",
+      "color": "#FFE66D",
+      "skills": [
+        "Git",
+        "CI/CD",
+        "Docker",
+        "Kubernetes",
+        "AWS",
+        "SageMaker",
+        "Athena",
+        "Glue",
+        "S3",
+        "ECS",
+        "Databricks",
+        "Apache Spark",
+        "Snowflake",
+        "Airflow",
+        "Power BI"
+      ]
+    },
+    {
+      "category": "Technical Skills",
+      "icon": "fas fa-laptop-code",
+      "color": "#A8DADC",
+      "skills": [
+        "Regression",
+        "Classification",
+        "Clustering",
+        "Time Series Forecasting",
+        "Isolation Forest",
+        "RAG",
+        "A/B Testing",
+        "Offline/Online Model Evaluation",
+        "Backtesting",
+        "Hypothesis Testing",
+        "Task Orchestration",
+        "Rest APIs"
+      ]
+    }
+  ]
+}

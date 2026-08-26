@@ -1,0 +1,38 @@
+{
+  "sectionTitle": "About Me",
+  "image": "",
+  "paragraphs": [
+    "Data Scientist with 6 years of experience spanning analytics engineering, BI, and applied ML, building canonical datasets, dashboards, and production-grade ETL pipelines, alongside time series forecasting and predictive modeling."
+  ],
+  "statistics": [
+    {
+      "icon": "fas fa-project-diagram",
+      "value": "1+",
+      "label": "Projects Built",
+      "color": "#FF6B6B"
+    },
+    {
+      "icon": "fas fa-briefcase",
+      "value": "7+",
+      "label": "Years Experience",
+      "color": "#4ECDC4"
+    },
+    {
+      "icon": "fas fa-code",
+      "value": "37+",
+      "label": "Technologies",
+      "color": "#FFE66D"
+    },
+    {
+      "icon": "fas fa-graduation-cap",
+      "value": "2",
+      "label": "Degrees",
+      "color": "#A8DADC"
+    }
+  ],
+  "downloadCV": {
+    "text": "Download Resume",
+    "href": "#",
+    "icon": "fas fa-download"
+  }
+}

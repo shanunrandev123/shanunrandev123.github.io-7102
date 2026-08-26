@@ -1,0 +1,515 @@
+{
+  "sectionTitle": "Featured Work",
+  "projects": [
+    {
+      "title": "Radiology AI Assistant (Multimodal ML system)",
+      "description": "Developed PyTorch-based image-to-text transformers for radiology reporting, achieving a ROUGE-L of 0.41 (+18%) with 280ms inference time for near real-time clinical use.",
+      "longDescription": "Developed PyTorch-based image-to-text transformers for radiology reporting, achieving a ROUGE-L of 0.41 (+18%) with 280ms inference time for near real-time clinical use.",
+      "category": "Software Development",
+      "technologies": [
+        "PyTorch",
+        "Transformers"
+      ],
+      "icon": "fas fa-project-diagram",
+      "color": "#FF6B6B",
+      "image": "",
+      "featured": true,
+      "github": "",
+      "demo": "",
+      "links": {
+        "github": "",
+        "demo": "",
+        "live": ""
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "PneumoNet",
+      "description": "GitHub repository: PneumoNet",
+      "longDescription": "GitHub repository: PneumoNet",
+      "category": "Backend Development",
+      "technologies": [
+        "Python"
+      ],
+      "icon": "fas fa-project-diagram",
+      "color": "#4ECDC4",
+      "image": "",
+      "featured": true,
+      "github": "https://github.com/shanunrandev123/PneumoNet",
+      "demo": "https://github.com/shanunrandev123/PneumoNet",
+      "links": {
+        "github": "https://github.com/shanunrandev123/PneumoNet",
+        "demo": "https://github.com/shanunrandev123/PneumoNet",
+        "live": "https://github.com/shanunrandev123/PneumoNet"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "CAPM",
+      "description": "Capital Asset Pricing Model and optimization",
+      "longDescription": "Capital Asset Pricing Model and optimization",
+      "category": "Backend Development",
+      "technologies": [
+        "Python"
+      ],
+      "icon": "fas fa-project-diagram",
+      "color": "#FFE66D",
+      "image": "",
+      "featured": true,
+      "github": "https://github.com/shanunrandev123/CAPM",
+      "demo": "https://github.com/shanunrandev123/CAPM",
+      "links": {
+        "github": "https://github.com/shanunrandev123/CAPM",
+        "demo": "https://github.com/shanunrandev123/CAPM",
+        "live": "https://github.com/shanunrandev123/CAPM"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "Energy-Prediction-model",
+      "description": "The dataset offers a rich assortment of features pertinent to the prediction of energy behavior among prosumers. Notable attributes include county identification, business status, product type, and consumption indicators, which provide a holistic view of energy-related activities. ",
+      "longDescription": "The dataset offers a rich assortment of features pertinent to the prediction of energy behavior among prosumers. Notable attributes include county identification, business status, product type, and consumption indicators, which provide a holistic view of energy-related activities. ",
+      "category": "Backend Development",
+      "technologies": [
+        "Jupyter Notebook",
+        "Python"
+      ],
+      "icon": "fas fa-project-diagram",
+      "color": "#A8DADC",
+      "image": "",
+      "featured": true,
+      "github": "https://github.com/shanunrandev123/Energy-Prediction-model",
+      "demo": "https://github.com/shanunrandev123/Energy-Prediction-model",
+      "links": {
+        "github": "https://github.com/shanunrandev123/Energy-Prediction-model",
+        "demo": "https://github.com/shanunrandev123/Energy-Prediction-model",
+        "live": "https://github.com/shanunrandev123/Energy-Prediction-model"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "ssd-yolo",
+      "description": "object detection using yolo",
+      "longDescription": "object detection using yolo",
+      "category": "Backend Development",
+      "technologies": [
+        "Python",
+        "Dockerfile"
+      ],
+      "icon": "fas fa-project-diagram",
+      "color": "#B19CD9",
+      "image": "",
+      "featured": true,
+      "github": "https://github.com/shanunrandev123/ssd-yolo",
+      "demo": "https://github.com/shanunrandev123/ssd-yolo",
+      "links": {
+        "github": "https://github.com/shanunrandev123/ssd-yolo",
+        "demo": "https://github.com/shanunrandev123/ssd-yolo",
+        "live": "https://github.com/shanunrandev123/ssd-yolo"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "ANN-model-using-pytorch",
+      "description": "Pima Indians Diabetes Database.",
+      "longDescription": "Pima Indians Diabetes Database.",
+      "category": "Backend Development",
+      "technologies": [
+        "Python"
+      ],
+      "icon": "fas fa-project-diagram",
+      "color": "#FF6B6B",
+      "image": "",
+      "featured": true,
+      "github": "https://github.com/shanunrandev123/ANN-model-using-pytorch",
+      "demo": "https://github.com/shanunrandev123/ANN-model-using-pytorch",
+      "links": {
+        "github": "https://github.com/shanunrandev123/ANN-model-using-pytorch",
+        "demo": "https://github.com/shanunrandev123/ANN-model-using-pytorch",
+        "live": "https://github.com/shanunrandev123/ANN-model-using-pytorch"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "Chatbot",
+      "description": "chatbot using NLTK and natural language processing using ML libraries",
+      "longDescription": "chatbot using NLTK and natural language processing using ML libraries",
+      "category": "Backend Development",
+      "technologies": [
+        "Python"
+      ],
+      "icon": "fas fa-project-diagram",
+      "color": "#4ECDC4",
+      "image": "",
+      "featured": false,
+      "github": "https://github.com/shanunrandev123/Chatbot",
+      "demo": "https://github.com/shanunrandev123/Chatbot",
+      "links": {
+        "github": "https://github.com/shanunrandev123/Chatbot",
+        "demo": "https://github.com/shanunrandev123/Chatbot",
+        "live": "https://github.com/shanunrandev123/Chatbot"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "Recommender-system",
+      "description": "Marvel Cinematic Universe Recommender system",
+      "longDescription": "Marvel Cinematic Universe Recommender system",
+      "category": "Software Development",
+      "technologies": [
+        "Jupyter Notebook"
+      ],
+      "icon": "fas fa-project-diagram",
+      "color": "#FFE66D",
+      "image": "",
+      "featured": false,
+      "github": "https://github.com/shanunrandev123/Recommender-system",
+      "demo": "https://github.com/shanunrandev123/Recommender-system",
+      "links": {
+        "github": "https://github.com/shanunrandev123/Recommender-system",
+        "demo": "https://github.com/shanunrandev123/Recommender-system",
+        "live": "https://github.com/shanunrandev123/Recommender-system"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "DocuBot",
+      "description": "GitHub repository: DocuBot",
+      "longDescription": "GitHub repository: DocuBot",
+      "category": "Backend Development",
+      "technologies": [
+        "Python"
+      ],
+      "icon": "fas fa-project-diagram",
+      "color": "#A8DADC",
+      "image": "",
+      "featured": false,
+      "github": "https://github.com/shanunrandev123/DocuBot",
+      "demo": "https://github.com/shanunrandev123/DocuBot",
+      "links": {
+        "github": "https://github.com/shanunrandev123/DocuBot",
+        "demo": "https://github.com/shanunrandev123/DocuBot",
+        "live": "https://github.com/shanunrandev123/DocuBot"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "yolo_test",
+      "description": "yolo implementation on wheat dataset taken from kaggle",
+      "longDescription": "yolo implementation on wheat dataset taken from kaggle",
+      "category": "Development",
+      "technologies": [],
+      "icon": "fas fa-project-diagram",
+      "color": "#B19CD9",
+      "image": "",
+      "featured": false,
+      "github": "https://github.com/shanunrandev123/yolo_test",
+      "demo": "https://github.com/shanunrandev123/yolo_test",
+      "links": {
+        "github": "https://github.com/shanunrandev123/yolo_test",
+        "demo": "https://github.com/shanunrandev123/yolo_test",
+        "live": "https://github.com/shanunrandev123/yolo_test"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "NomadLy",
+      "description": "GitHub repository: NomadLy",
+      "longDescription": "GitHub repository: NomadLy",
+      "category": "Backend Development",
+      "technologies": [
+        "Python",
+        "HTML"
+      ],
+      "icon": "fas fa-brain",
+      "color": "#FF6B6B",
+      "image": "",
+      "featured": false,
+      "github": "https://github.com/shanunrandev123/NomadLy",
+      "demo": "https://github.com/shanunrandev123/NomadLy",
+      "links": {
+        "github": "https://github.com/shanunrandev123/NomadLy",
+        "demo": "https://github.com/shanunrandev123/NomadLy",
+        "live": "https://github.com/shanunrandev123/NomadLy"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "Captcha-Recognition",
+      "description": "GitHub repository: Captcha-Recognition",
+      "longDescription": "GitHub repository: Captcha-Recognition",
+      "category": "Backend Development",
+      "technologies": [
+        "Python"
+      ],
+      "icon": "fas fa-project-diagram",
+      "color": "#4ECDC4",
+      "image": "",
+      "featured": false,
+      "github": "https://github.com/shanunrandev123/Captcha-Recognition",
+      "demo": "https://github.com/shanunrandev123/Captcha-Recognition",
+      "links": {
+        "github": "https://github.com/shanunrandev123/Captcha-Recognition",
+        "demo": "https://github.com/shanunrandev123/Captcha-Recognition",
+        "live": "https://github.com/shanunrandev123/Captcha-Recognition"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "Content_Based_Image_Search",
+      "description": "GitHub repository: Content_Based_Image_Search",
+      "longDescription": "GitHub repository: Content_Based_Image_Search",
+      "category": "Backend Development",
+      "technologies": [
+        "Python"
+      ],
+      "icon": "fas fa-project-diagram",
+      "color": "#FFE66D",
+      "image": "",
+      "featured": false,
+      "github": "https://github.com/shanunrandev123/Content_Based_Image_Search",
+      "demo": "https://github.com/shanunrandev123/Content_Based_Image_Search",
+      "links": {
+        "github": "https://github.com/shanunrandev123/Content_Based_Image_Search",
+        "demo": "https://github.com/shanunrandev123/Content_Based_Image_Search",
+        "live": "https://github.com/shanunrandev123/Content_Based_Image_Search"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "shanunrandev123.github.io",
+      "description": "GitHub repository: shanunrandev123.github.io",
+      "longDescription": "GitHub repository: shanunrandev123.github.io",
+      "category": "Data Science",
+      "technologies": [
+        "CSS",
+        "SCSS",
+        "JavaScript",
+        "HTML",
+        "PHP"
+      ],
+      "icon": "fas fa-brain",
+      "color": "#A8DADC",
+      "image": "",
+      "featured": false,
+      "github": "https://github.com/shanunrandev123/shanunrandev123.github.io",
+      "demo": "https://github.com/shanunrandev123/shanunrandev123.github.io",
+      "links": {
+        "github": "https://github.com/shanunrandev123/shanunrandev123.github.io",
+        "demo": "https://github.com/shanunrandev123/shanunrandev123.github.io",
+        "live": "https://github.com/shanunrandev123/shanunrandev123.github.io"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "Segmentation_Liver",
+      "description": "GitHub repository: Segmentation_Liver",
+      "longDescription": "GitHub repository: Segmentation_Liver",
+      "category": "Backend Development",
+      "technologies": [
+        "Python"
+      ],
+      "icon": "fas fa-project-diagram",
+      "color": "#B19CD9",
+      "image": "",
+      "featured": false,
+      "github": "https://github.com/shanunrandev123/Segmentation_Liver",
+      "demo": "https://github.com/shanunrandev123/Segmentation_Liver",
+      "links": {
+        "github": "https://github.com/shanunrandev123/Segmentation_Liver",
+        "demo": "https://github.com/shanunrandev123/Segmentation_Liver",
+        "live": "https://github.com/shanunrandev123/Segmentation_Liver"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "recommender-engines",
+      "description": "GitHub repository: recommender-engines",
+      "longDescription": "GitHub repository: recommender-engines",
+      "category": "Backend Development",
+      "technologies": [
+        "Python"
+      ],
+      "icon": "fas fa-project-diagram",
+      "color": "#FF6B6B",
+      "image": "",
+      "featured": false,
+      "github": "https://github.com/shanunrandev123/recommender-engines",
+      "demo": "https://github.com/shanunrandev123/recommender-engines",
+      "links": {
+        "github": "https://github.com/shanunrandev123/recommender-engines",
+        "demo": "https://github.com/shanunrandev123/recommender-engines",
+        "live": "https://github.com/shanunrandev123/recommender-engines"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "grocery_forecasting",
+      "description": "GitHub repository: grocery_forecasting",
+      "longDescription": "GitHub repository: grocery_forecasting",
+      "category": "Backend Development",
+      "technologies": [
+        "Python"
+      ],
+      "icon": "fas fa-project-diagram",
+      "color": "#4ECDC4",
+      "image": "",
+      "featured": false,
+      "github": "https://github.com/shanunrandev123/grocery_forecasting",
+      "demo": "https://github.com/shanunrandev123/grocery_forecasting",
+      "links": {
+        "github": "https://github.com/shanunrandev123/grocery_forecasting",
+        "demo": "https://github.com/shanunrandev123/grocery_forecasting",
+        "live": "https://github.com/shanunrandev123/grocery_forecasting"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "MultiFlare",
+      "description": "GitHub repository: MultiFlare",
+      "longDescription": "GitHub repository: MultiFlare",
+      "category": "Backend Development",
+      "technologies": [
+        "Python"
+      ],
+      "icon": "fas fa-project-diagram",
+      "color": "#FFE66D",
+      "image": "",
+      "featured": false,
+      "github": "https://github.com/shanunrandev123/MultiFlare",
+      "demo": "https://github.com/shanunrandev123/MultiFlare",
+      "links": {
+        "github": "https://github.com/shanunrandev123/MultiFlare",
+        "demo": "https://github.com/shanunrandev123/MultiFlare",
+        "live": "https://github.com/shanunrandev123/MultiFlare"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "Language-Models",
+      "description": "GitHub repository: Language-Models",
+      "longDescription": "GitHub repository: Language-Models",
+      "category": "Backend Development",
+      "technologies": [
+        "Python"
+      ],
+      "icon": "fas fa-project-diagram",
+      "color": "#A8DADC",
+      "image": "",
+      "featured": false,
+      "github": "https://github.com/shanunrandev123/Language-Models",
+      "demo": "https://github.com/shanunrandev123/Language-Models",
+      "links": {
+        "github": "https://github.com/shanunrandev123/Language-Models",
+        "demo": "https://github.com/shanunrandev123/Language-Models",
+        "live": "https://github.com/shanunrandev123/Language-Models"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "Dijkstra-Comparative-analysis",
+      "description": "GitHub repository: Dijkstra-Comparative-analysis",
+      "longDescription": "GitHub repository: Dijkstra-Comparative-analysis",
+      "category": "Software Development",
+      "technologies": [
+        "Jupyter Notebook"
+      ],
+      "icon": "fas fa-project-diagram",
+      "color": "#B19CD9",
+      "image": "",
+      "featured": false,
+      "github": "https://github.com/shanunrandev123/Dijkstra-Comparative-analysis",
+      "demo": "https://github.com/shanunrandev123/Dijkstra-Comparative-analysis",
+      "links": {
+        "github": "https://github.com/shanunrandev123/Dijkstra-Comparative-analysis",
+        "demo": "https://github.com/shanunrandev123/Dijkstra-Comparative-analysis",
+        "live": "https://github.com/shanunrandev123/Dijkstra-Comparative-analysis"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "SentinelShield",
+      "description": "GitHub repository: SentinelShield",
+      "longDescription": "GitHub repository: SentinelShield",
+      "category": "Backend Development",
+      "technologies": [
+        "Python"
+      ],
+      "icon": "fas fa-project-diagram",
+      "color": "#FF6B6B",
+      "image": "",
+      "featured": false,
+      "github": "https://github.com/shanunrandev123/SentinelShield",
+      "demo": "https://github.com/shanunrandev123/SentinelShield",
+      "links": {
+        "github": "https://github.com/shanunrandev123/SentinelShield",
+        "demo": "https://github.com/shanunrandev123/SentinelShield",
+        "live": "https://github.com/shanunrandev123/SentinelShield"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    }
+  ]
+}
