@@ -869,10 +869,10 @@ a { color: inherit; }
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    height: 38px;
-    min-width: 38px;
+    height: 48px;
+    min-width: 64px;
     max-width: 180px;
-    padding: 6px 12px;
+    padding: 7px 12px;
     margin-bottom: var(--spacing-sm);
     background: #fff;
     border-radius: var(--radius-sm);
@@ -880,12 +880,28 @@ a { color: inherit; }
 }
 
 .logo-chip img {
-    height: 26px;
+    max-height: 34px;
     width: auto;
     max-width: 100%;
     object-fit: contain;
     display: block;
 }
+
+.logo-chip-fallback { display: none; }
+
+.logo-chip--failed {
+    background: var(--bg-3);
+    border: 1px solid var(--accent-line);
+    color: var(--accent);
+    font-family: var(--font-display);
+    font-weight: 800;
+    font-size: 1.05rem;
+    letter-spacing: 0.02em;
+    box-shadow: none;
+}
+
+.logo-chip--failed img { display: none; }
+.logo-chip--failed .logo-chip-fallback { display: inline; }
 
 .logo-chip--mono {
     background: var(--bg-3);
@@ -1159,11 +1175,11 @@ a { color: inherit; }
     to { opacity: 1; transform: none; }
 }
 
-/* Media — full, uncropped 2:1 artwork */
+/* Media — generated wide artwork */
 .pc-media {
     position: relative;
     margin: 0;
-    aspect-ratio: 2 / 1;
+    aspect-ratio: 16 / 9;
     background: var(--bg-3);
     border-bottom: 1px solid var(--line);
     overflow: hidden;
@@ -1172,7 +1188,7 @@ a { color: inherit; }
 .pc-img {
     width: 100%;
     height: 100%;
-    object-fit: contain;
+    object-fit: cover;
     display: block;
     transition: transform var(--transition-slow);
 }

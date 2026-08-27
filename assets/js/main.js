@@ -207,9 +207,7 @@ async function loadAbout() {
 // Company / institution logo helper
 // Real brand logos where available, on-brand monogram fallback otherwise
 // ============================================
-function brandLogoHTML(name) {
-    // Monogram from the institution's significant initials (no external logo
-    // assets — the template renders a clean on-brand monogram for any company)
+function brandLogoHTML(name, logoPath) {
     const stop = new Set(['of', 'the', 'and', 'for', 'pvt', 'ltd', 'inc', 'llc', 'co', '&']);
     const cleaned = (name || '').replace(/\(.*?\)/g, ' ');
     let mono = cleaned.split(/[\s.,]+/)
@@ -218,7 +216,25 @@ function brandLogoHTML(name) {
         .join('')
         .slice(0, 3);
     if (!mono) mono = ((name || '?').trim()[0] || '?').toUpperCase();
+
+    if (logoPath) {
+        return `
+            <span class="logo-chip">
+                <img src="${logoPath}" alt="${name} logo" loading="lazy" />
+                <span class="logo-chip-fallback" aria-hidden="true">${mono}</span>
+            </span>
+        `;
+    }
+
     return `<span class="logo-chip logo-chip--mono">${mono}</span>`;
+}
+
+function initializeLogoFallbacks(container) {
+    container.querySelectorAll('.logo-chip img').forEach(image => {
+        image.addEventListener('error', () => {
+            image.closest('.logo-chip')?.classList.add('logo-chip--failed');
+        }, { once: true });
+    });
 }
 
 // ============================================
@@ -243,7 +259,7 @@ async function loadExperience() {
                     </div>
                     <div class="timeline-content">
                         <div class="experience-header">
-                            ${brandLogoHTML(exp.company)}
+                            ${brandLogoHTML(exp.company, exp.logo)}
                             <h3 class="experience-title">${exp.title}</h3>
                             <p class="experience-company">
                                 ${exp.company} ${exp.location ? `• ${exp.location}` : ''}
@@ -268,6 +284,7 @@ async function loadExperience() {
                     </div>
                 </div>
             `).join('');
+            initializeLogoFallbacks(timelineContainer);
         }
     } catch (error) {
         console.error('Error loading experience section:', error);
@@ -328,7 +345,7 @@ async function loadProjects() {
         // Render tiles
         projectsGrid.innerHTML = data.projects.map((project, index) => {
             const category = project.category || 'Software Development';
-            const banner = `assets/images/projects/project-${index}.png`;
+            const banner = project.image || `assets/images/projects/project-${index}.png`;
             const description = project.longDescription || project.description || '';
             const github = (project.links && project.links.github) || project.github;
             const demo = (project.links && project.links.demo) || project.demo;
@@ -475,7 +492,7 @@ async function loadEducation() {
         if (educationGrid && data.education) {
             educationGrid.innerHTML = data.education.map(edu => `
                 <div class="education-card">
-                    ${brandLogoHTML(edu.institution)}
+                    ${brandLogoHTML(edu.institution, edu.logo)}
                     <h3 class="education-degree">${edu.degree}</h3>
                     <p class="education-institution">${edu.institution}</p>
                     <p class="education-period">${edu.period}</p>
@@ -487,6 +504,7 @@ async function loadEducation() {
                     ` : ''}
                 </div>
             `).join('');
+            initializeLogoFallbacks(educationGrid);
         }
     } catch (error) {
         console.error('Error loading education section:', error);
